@@ -10,7 +10,7 @@ import { ProductComponent } from './components/products/products.component';
     {path: 'home', component: HomeComponent},
     {path: 'articulos/:name', component: ProductComponent},
     {path: 'articulo/:id', component: ProductComponent},
-    {path: 'articulos/:name', component: ProductComponent},
+    {path: 'articulos/remeras', component: ProductComponent},
     {path: '**', component: HomeComponent}
   ];
 
